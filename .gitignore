@@ -1,6 +1,6 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
-
+set_env.sh
 *~
 *.sw[mnpcod]
 *.log
@@ -40,3 +40,15 @@ venv/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+
+node_modules/
+set_env.sh
+.vscode
+www/
+.ionic/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.DS_Store
+docker.env
