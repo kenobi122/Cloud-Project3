@@ -27,7 +27,7 @@ script:
   - docker tag udagram-api-user kenobi122/udagram-api-user:v1
   # Build and tag feed-api
   - docker build -t udagram-frontend ./udagram-frontend
-  - docker tag udagram-frontend kenobi122/udagram-frontend::v1
+  - docker tag udagram-frontend kenobi122/udagram-frontend:v1
   # Build and tag feed-api
   - docker build -t udagram-reverseproxy ./udagram-reverseproxy
   - docker tag udagram-reverseproxy kenobi122/udagram-reverseproxy:v1
